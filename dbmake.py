@@ -40,7 +40,7 @@ def main():
 		                            address TEXT,
 		                            zipcode TEXT,
 		                            city TEXT,
-                                    phone TEXT,
+                                    phone INTEGER NOT NULL CHECK (length(phone >= 10)),
                                     cjoined NVARCHAR(50) NOT NULL
                                     );'''
 
@@ -58,7 +58,7 @@ def main():
                                     price REAL,
                                     description TEXT,
                                     image TEXT,
-		                            stock INTEGER,
+		                            stock INTEGER NOT NULL CHECK (length(stock > 0)),
 		                            catid INTEGER,
                                     FOREIGN KEY(catid) REFERENCES categories(catid)
                                     );'''
@@ -76,6 +76,15 @@ def main():
     # create a database connection
     conn = db_connect()
 
+    # making a composite index on products tables so that we can easily populate products belonging to one category id  
+
+    '''
+    conn = sqlite3.connect('smgroceries.db')
+    cur = conn.cursor()
+    cur.execute("CREATE UNIQUE INDEX email_index on Customers (email)")
+    conn.commit()
+    '''
+    
     # create tables
     if conn is not None:
         # create customers table
