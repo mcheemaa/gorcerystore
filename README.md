@@ -8,6 +8,9 @@ The pandemic has accelerated a shift towards online shopping. However, current t
 
 Point Of Sale System ( https://github.com/mcheemaa/Product-Info-Viewer- )
 
+![78c28996-ae28-4b8c-9e83-3861e04dbe98-1](https://user-images.githubusercontent.com/54610255/110180858-90c26900-7dd8-11eb-951f-60255d4d7343.jpg)
+
+
 ![image](https://user-images.githubusercontent.com/54610255/110161559-85ad1000-7dbb-11eb-9c6b-b6f641326d70.png)
 
 ![image](https://user-images.githubusercontent.com/54610255/110161631-9eb5c100-7dbb-11eb-98b9-90cae2862cec.png)
