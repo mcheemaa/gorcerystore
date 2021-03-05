@@ -8,6 +8,11 @@ The pandemic has accelerated a shift towards online shopping. However, current t
 
 ![image](https://user-images.githubusercontent.com/54610255/110161559-85ad1000-7dbb-11eb-9c6b-b6f641326d70.png)
 
+![image](https://user-images.githubusercontent.com/54610255/110161631-9eb5c100-7dbb-11eb-98b9-90cae2862cec.png)
+
+![image](https://user-images.githubusercontent.com/54610255/110161659-a70dfc00-7dbb-11eb-914e-9fad47516925.png)
+
+
 
 
 
